@@ -1,0 +1,9 @@
+
+{% extends 'miyadaiku.themes.base!page_article.html' %}
+
+{% block head %}
+  {{ super() }}
+  
+   {{ popper_js.load_js(page) }}
+
+{% endblock head %}

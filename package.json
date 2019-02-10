@@ -1,0 +1,12 @@
+{
+  "name": "miyadaiku.themes.popper_js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyadaiku/miyadaiku-themes-popper_js.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "popper.js": "^1.14.7"
+  }
+}

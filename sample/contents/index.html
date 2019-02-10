@@ -1,0 +1,25 @@
+title: Popper.js test
+
+
+<center><button> button </button></center>
+
+<div id='wrap' style="border:solid; background-color: green;">
+  ← Push this button
+</div>
+
+<div id='wrap2' style="border:solid; background-color: blue;">
+  ↑ ↑ ↑ 
+</div>
+
+<script>
+var button = document.querySelector('button')
+var wrap = document.querySelector('#wrap')
+var popper = new Popper(button, wrap, {
+      placement: 'right'
+});
+
+var wrap2 = document.querySelector('#wrap2')
+var popper2 = new Popper(button, wrap2, {
+      placement: 'bottom'
+});
+</script>
