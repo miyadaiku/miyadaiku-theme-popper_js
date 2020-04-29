@@ -12,7 +12,7 @@ Use pip command to install Popper.js.
 
 ::
 
-   $ pip3 install miyadaiku.themes.popper_js
+   $ pip3 install miyadaiku_theme_popper_js
 
 
 Configuraion
