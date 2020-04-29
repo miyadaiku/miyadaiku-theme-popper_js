@@ -2,7 +2,7 @@
 Popper.js files for miyadaiku static site generator
 ========================================================
 
-Provides `Popper.js 1.14.7 <https://github.com/FezVrasta/popper.js/>`__ files.
+Provides `Popper.js 1.16.1 <https://github.com/FezVrasta/popper.js/>`__ files.
 
 
 Installation
@@ -12,7 +12,7 @@ Use pip command to install Popper.js.
 
 ::
 
-   $ pip3 install miyadaiku.themes.popper_js
+   $ pip3 install miyadaiku_theme_popper_js
 
 
 Configuraion
@@ -24,7 +24,7 @@ In your config.yml file of your project, add following configuration at `themes`
 ::
 
    themes:
-     - miyadaiku.themes.popper_js    # <---- add this line
+     - miyadaiku_theme_popper_js    # <---- add this line
 
 
 Usage
