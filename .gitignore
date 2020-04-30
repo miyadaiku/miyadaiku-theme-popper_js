@@ -13,3 +13,4 @@ build
 .venv
 outputs
 *.pickle
+pip-wheel-metadata
