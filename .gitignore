@@ -14,3 +14,4 @@ build
 outputs
 *.pickle
 pip-wheel-metadata
+.eggs
