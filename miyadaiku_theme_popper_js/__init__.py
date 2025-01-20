@@ -1,4 +1,4 @@
-import pkg_resources
+import importlib.resources
 
 from . __version__ import __version__
 
@@ -11,7 +11,7 @@ def load_package(site):
     popper_js = POPPER_JS_MIN if f else POPPER_JS
     src_path = 'externals/'+popper_js
     
-    content = pkg_resources.resource_string(__name__, src_path)
+    content = importlib.resources.read_binary(__name__, src_path)
     site.files.add_bytes("binary", DEST_PATH + popper_js, content )
     site.config.add('/', {'popper_js_path': DEST_PATH+popper_js})
 
